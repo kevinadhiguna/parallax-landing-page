@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link 
+        rel="stylesheet" 
+        href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.14.0/css/all.min.css" integrity="sha512-1PKOgIY59xJ8Co8+NE6FZ+LOAZKjy+KY8iq0G4B3CyeY6wYHN3yt9PW0XpSriVlkMXe40PTKnXrLnZ9+fkDaog==" 
+        crossorigin="anonymous" 
+    />
+    <link rel="stylesheet" href="css/styles.css">
+    <title>Parallax Landing Page</title>
+</head>
+<body>
+    <!-- 
+        'data-rellax-speed' sets the speed of a '.rellax' element 
+        to something other than the default value (which is -2).
+        Docs : https://dixonandmoe.com/rellax/
+
+        'data-rellax-xs-speed' is similar to 'data-rellax-speed' 
+        but intended for mobilephone whose screen size is very small (xs = extra small).
+     -->
+    <section class="section section-top">
+        <div class="content rellax" data-rellax-speed="5">
+            <h1>Community Based Driven Video</h1>
+            <a href="#" class="btn btn-primary">Learn More</a>
+        </div>
+    </section>
+
+    <section class="section section-stream">
+        <img 
+            src="https://i.ibb.co/TvdbMhQ/play-button.png" 
+            alt="Play-Button" 
+            class="play rellax"
+            data-rellax-speed="-1"
+            data-rellax-xs-speed="-5"
+        >
+        <div class="content rellax" data-rellax-speed="10">
+            <div>
+                <h2 class="secondary-text">Stream Everything</h2>
+                <p>
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Quidem rerum vel sequi explicabo quas quia ipsa quos alias, reiciendis ullam.
+                </p>
+            </div>
+            <div>
+                <h2 class="secondary-text">Short is the new long</h2>
+                <p>
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Quidem rerum vel sequi explicabo quas quia ipsa quos alias, reiciendis ullam.
+                </p>
+            </div>            
+        </div>
+    </section>
+
+    <section class="section section-grid">
+        <div class="rellax" data-rellax-speed="1" data-rellax-xs-speed="3">
+            <i class="fas fa-video fa-3x secondary-text"></i>
+            <h2>
+                Watch
+                <span class="secondary-text dot">.</span>
+            </h2>
+            <p>
+                Lorem ipsum dolor, sit amet consectetur adipisicing elit. Officia tempora est incidunt, maxime eos nihil fugiat similique atque maiores consequatur!
+            </p>
+        </div>
+        <div class="rellax" data-rellax-speed="4" data-rellax-xs-speed="3">
+            <i class="fas fa-users fa-3x secondary-text"></i>
+            <h2>
+                Share
+                <span class="secondary-text dot">.</span>
+            </h2>
+            <p>
+                Lorem ipsum dolor sit amet, consectetur adipisicing elit. Totam at eveniet reprehenderit provident dicta quidem hic nisi excepturi veniam error.
+            </p>
+        </div>
+        <div class="rellax" data-rellax-speed="7" data-rellax-xs-speed="3">
+            <i class="fas fa-book fa-3x secondary-text"></i>
+            <h2>
+                Learn
+                <span class="secondary-text dot">.</span>
+            </h2>
+            <p>
+                Lorem ipsum dolor sit amet, consectetur adipisicing elit. Numquam cum minus sint! Nam voluptates doloribus maxime esse eaque quisquam consectetur.
+            </p>
+        </div>
+    </section>
+
+    <footer class="footer">
+        <ul>
+            <li>
+                <a href="#">FaQ</a>
+            </li>
+            <li>
+                <a href="#">Terms of Use</a>
+            </li>
+            <li>
+                <a href="#">Privacy Notice</a>
+            </li>
+            <li>
+                <a href="#">Contact Us</a>
+            </li>
+            <li>
+                <a href="#">About Us</a>
+            </li>
+        </ul>
+    </footer>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/rellax/1.12.1/rellax.min.js" integrity="sha512-f5HTYZYTDZelxS7LEQYv8ppMHTZ6JJWglzeQmr0CVTS70vJgaJiIO15ALqI7bhsracojbXkezUIL+35UXwwGrQ==" crossorigin="anonymous"></script>
+    <script src="js/main.js"></script>
+</body>
+</html>
