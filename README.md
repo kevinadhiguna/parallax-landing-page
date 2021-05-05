@@ -9,3 +9,5 @@ Actuallyou will see parallax effects when scrolling down this app. <br>
 <img src="https://raw.githubusercontent.com/kevinadhiguna/parallax-landing-page/master/demo/2.png" width="90%"></img>
 <img src="https://raw.githubusercontent.com/kevinadhiguna/parallax-landing-page/master/demo/3.png" width="90%"></img>
 <img src="https://raw.githubusercontent.com/kevinadhiguna/parallax-landing-page/master/demo/4.png" width="90%"></img>
+
+[![Visits Badge](https://badges.pufler.dev/visits/kevinadhiguna/parallax-landing-page)](https://github.com/kevinadhiguna)
